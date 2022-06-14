@@ -8,14 +8,19 @@
     tools:context=".MainActivity"
     tools:deviceIds="wear">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:id="@+id/linearLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_boxedEdges="all"
-    app:layout_constrainBotton_toTopOf="@+id/imageButton"
-    app:layout_constraintTop-toTopOf="@+id/imageButton">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/wButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Notificación"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.wear.widget.BoxInsetLayout>
-
